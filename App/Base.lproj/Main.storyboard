@@ -111,6 +111,18 @@
                                     <segue destination="FLq-v8-VRf" kind="show" id="AL9-AU-JEb"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sI8-lh-Tnw">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="X">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="247" y="322" width="78" height="78"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonX:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="EnL-Bi-Wlu"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -122,6 +134,7 @@
                                 <exclude reference="gZe-kb-nAj"/>
                                 <exclude reference="qbe-uE-DWf"/>
                                 <exclude reference="ptm-Fv-QrJ"/>
+                                <exclude reference="sI8-lh-Tnw"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -133,6 +146,7 @@
                                 <include reference="gZe-kb-nAj"/>
                                 <include reference="qbe-uE-DWf"/>
                                 <include reference="ptm-Fv-QrJ"/>
+                                <include reference="sI8-lh-Tnw"/>
                             </mask>
                         </variation>
                     </view>
@@ -791,6 +805,7 @@
         <image name="Map_6" width="750" height="1334"/>
         <image name="Puzzle_Button" width="350" height="350"/>
         <image name="QM 2" width="1024" height="1024"/>
+        <image name="X" width="350" height="350"/>
         <image name="puzzle22nd.jpg" width="375" height="224"/>
         <image name="puzzle2first.jpg" width="375" height="224"/>
         <image name="puzzle2third.jpg" width="375" height="224"/>
